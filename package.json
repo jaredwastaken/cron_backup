@@ -1,0 +1,15 @@
+{
+  "name": "auto_backups",
+  "version": "1.0.0",
+  "description": "back up database on Raspberry Pi locally & cloud storage",
+  "main": "core.js",
+  "scripts": {
+    "start": "node core.js"
+  },
+  "author": "jaredwastaken",
+  "license": "ISC",
+  "dependencies": {
+    "google-auth-library": "^9.8.0",
+    "googleapis": "^134.0.0"
+  }
+}
